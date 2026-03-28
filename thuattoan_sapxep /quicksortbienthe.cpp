@@ -44,7 +44,7 @@ int Partition(recordtype a[], int i, int j, keytype pivot){
             Swap(&a[L], &a[R]);
     }
 
-    // dua pivot v? dúng v? trí
+    // dua pivot v? dÃºng v? trÃ­
     Swap(&a[i], &a[R]);
 
     return R;
